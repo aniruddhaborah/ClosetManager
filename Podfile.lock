@@ -1,19 +1,30 @@
 PODS:
+  - Realm (2.4.4):
+    - Realm/Headers (= 2.4.4)
+  - Realm/Headers (2.4.4)
+  - RealmSwift (2.4.4):
+    - Realm (= 2.4.4)
   - RxCocoa (3.3.1):
     - RxSwift (~> 3.3)
   - RxSwift (3.3.1)
+  - SCLAlertView (0.7.0)
   - SnapKit (3.2.0)
 
 DEPENDENCIES:
+  - RealmSwift
   - RxCocoa (~> 3.0)
   - RxSwift (~> 3.0)
+  - SCLAlertView
   - SnapKit (~> 3.2.0)
 
 SPEC CHECKSUMS:
+  Realm: 5a280a1f5a9a3c267bebf4f41ee47911137703d7
+  RealmSwift: 0c02b9f2d4be4301c497ed10e53a0580584eb1dd
   RxCocoa: 7dcb7a1860fc9cd0e23dae67ab105fc2916670b6
   RxSwift: 8fc9f2de6275a9101d518444e00bf32f1a42caac
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
-PODFILE CHECKSUM: fae0b788a4f1cf3582e04f2fb7c47eb2cf8fc3c3
+PODFILE CHECKSUM: 5b480fd42e6b8b81b21590b4b5adf007fdbb537b
 
 COCOAPODS: 1.2.0
