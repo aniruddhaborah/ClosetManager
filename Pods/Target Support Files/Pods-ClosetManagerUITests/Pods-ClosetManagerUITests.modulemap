@@ -1,0 +1,6 @@
+framework module Pods_ClosetManagerUITests {
+  umbrella header "Pods-ClosetManagerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
