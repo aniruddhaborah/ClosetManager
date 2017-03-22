@@ -1,4 +1,5 @@
 PODS:
+  - Eureka (2.0.1)
   - Realm (2.4.4):
     - Realm/Headers (= 2.4.4)
   - Realm/Headers (2.4.4)
@@ -11,6 +12,7 @@ PODS:
   - SnapKit (3.2.0)
 
 DEPENDENCIES:
+  - Eureka (~> 2.0)
   - RealmSwift
   - RxCocoa (~> 3.0)
   - RxSwift (~> 3.0)
@@ -18,6 +20,7 @@ DEPENDENCIES:
   - SnapKit (~> 3.2.0)
 
 SPEC CHECKSUMS:
+  Eureka: ae837bb1dfae0c07bc1bda7aeef87876eeb537c2
   Realm: 5a280a1f5a9a3c267bebf4f41ee47911137703d7
   RealmSwift: 0c02b9f2d4be4301c497ed10e53a0580584eb1dd
   RxCocoa: 7dcb7a1860fc9cd0e23dae67ab105fc2916670b6
@@ -25,6 +28,6 @@ SPEC CHECKSUMS:
   SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
   SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
 
-PODFILE CHECKSUM: 5b480fd42e6b8b81b21590b4b5adf007fdbb537b
+PODFILE CHECKSUM: 104434dbc74c8dd559cfe0301b35d2ff193c3f3a
 
 COCOAPODS: 1.2.0

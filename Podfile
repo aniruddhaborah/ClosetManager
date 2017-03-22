@@ -9,6 +9,8 @@ target 'ClosetManager' do
   pod 'RxCocoa',    '~> 3.0'
   pod 'RealmSwift'
   pod 'SCLAlertView'
+  pod 'Eureka', '~> 2.0'
+
 
   # Pods for ClosetManager
 

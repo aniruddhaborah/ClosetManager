@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '79B167A7036A0B83F48D1C8E58195659'
+               BlueprintIdentifier = '30F5037D6FC8332E9DED89B263E2BE62'
                BlueprintName = 'Pods-ClosetManager'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-ClosetManager.framework'>
