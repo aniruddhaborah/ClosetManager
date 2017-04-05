@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		288D38191E80EE03009406D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D38181E80EE03009406D0 /* AppDelegate.swift */; };
-		288D381B1E80EE03009406D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D381A1E80EE03009406D0 /* ViewController.swift */; };
 		288D381E1E80EE03009406D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288D381C1E80EE03009406D0 /* Main.storyboard */; };
 		288D38201E80EE03009406D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288D381F1E80EE03009406D0 /* Assets.xcassets */; };
 		288D38231E80EE03009406D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288D38211E80EE03009406D0 /* LaunchScreen.storyboard */; };
 		288D382E1E80EE03009406D0 /* ClosetManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D382D1E80EE03009406D0 /* ClosetManagerTests.swift */; };
 		288D38391E80EE03009406D0 /* ClosetManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D38381E80EE03009406D0 /* ClosetManagerUITests.swift */; };
 		288D38471E80EE4B009406D0 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288D38461E80EE4B009406D0 /* BaseTabBarController.swift */; };
+		28F83A3D1E94BFE700F9E7B0 /* ExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F83A3B1E94BFE700F9E7B0 /* ExplorerViewController.swift */; };
+		28F83A3E1E94BFE700F9E7B0 /* ExplorerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F83A3C1E94BFE700F9E7B0 /* ExplorerViewController.xib */; };
+		28F83A421E94C03300F9E7B0 /* CreateItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F83A401E94C03300F9E7B0 /* CreateItemViewController.swift */; };
+		28F83A431E94C03300F9E7B0 /* CreateItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F83A411E94C03300F9E7B0 /* CreateItemViewController.xib */; };
 		4CA27714F2FCEAC9B2AAB6DF /* Pods_ClosetManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1674DB498435E83569D55CE3 /* Pods_ClosetManager.framework */; };
 		98FEA3CC8A16C4AC28305C64 /* Pods_ClosetManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF778AD9D63A686DF2377F4 /* Pods_ClosetManagerUITests.framework */; };
 		F49FE33B2F6294B8475F7F08 /* Pods_ClosetManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F163929892A70134BA118068 /* Pods_ClosetManagerTests.framework */; };
@@ -41,7 +44,6 @@
 		1674DB498435E83569D55CE3 /* Pods_ClosetManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClosetManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		288D38151E80EE03009406D0 /* ClosetManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosetManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288D38181E80EE03009406D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		288D381A1E80EE03009406D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		288D381D1E80EE03009406D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		288D381F1E80EE03009406D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		288D38221E80EE03009406D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +55,10 @@
 		288D38381E80EE03009406D0 /* ClosetManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosetManagerUITests.swift; sourceTree = "<group>"; };
 		288D383A1E80EE03009406D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		288D38461E80EE4B009406D0 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		28F83A3B1E94BFE700F9E7B0 /* ExplorerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExplorerViewController.swift; sourceTree = "<group>"; };
+		28F83A3C1E94BFE700F9E7B0 /* ExplorerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExplorerViewController.xib; sourceTree = "<group>"; };
+		28F83A401E94C03300F9E7B0 /* CreateItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateItemViewController.swift; sourceTree = "<group>"; };
+		28F83A411E94C03300F9E7B0 /* CreateItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateItemViewController.xib; sourceTree = "<group>"; };
 		4155F10B79E561EF33168ED4 /* Pods-ClosetManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClosetManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClosetManagerUITests/Pods-ClosetManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		70A2E95E71BFDA8537330E42 /* Pods-ClosetManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClosetManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClosetManagerTests/Pods-ClosetManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		908FBE20FCA38B012DE00098 /* Pods-ClosetManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClosetManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClosetManager/Pods-ClosetManager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -116,10 +122,11 @@
 		288D38171E80EE03009406D0 /* ClosetManager */ = {
 			isa = PBXGroup;
 			children = (
+				28F83A441E94C04100F9E7B0 /* Lib */,
+				28F83A3F1E94BFF600F9E7B0 /* Views */,
 				288D38491E80EEB3009406D0 /* Models */,
-				288D38481E80EEA1009406D0 /* Views */,
+				288D38481E80EEA1009406D0 /* Controllers */,
 				288D38181E80EE03009406D0 /* AppDelegate.swift */,
-				288D381A1E80EE03009406D0 /* ViewController.swift */,
 				288D381C1E80EE03009406D0 /* Main.storyboard */,
 				288D381F1E80EE03009406D0 /* Assets.xcassets */,
 				288D38211E80EE03009406D0 /* LaunchScreen.storyboard */,
@@ -147,11 +154,15 @@
 			path = ClosetManagerUITests;
 			sourceTree = "<group>";
 		};
-		288D38481E80EEA1009406D0 /* Views */ = {
+		288D38481E80EEA1009406D0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				28F83A3B1E94BFE700F9E7B0 /* ExplorerViewController.swift */,
+				28F83A3C1E94BFE700F9E7B0 /* ExplorerViewController.xib */,
+				28F83A401E94C03300F9E7B0 /* CreateItemViewController.swift */,
+				28F83A411E94C03300F9E7B0 /* CreateItemViewController.xib */,
 			);
-			name = Views;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		288D38491E80EEB3009406D0 /* Models */ = {
@@ -159,6 +170,20 @@
 			children = (
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		28F83A3F1E94BFF600F9E7B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		28F83A441E94C04100F9E7B0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 		A67FC81B39F321F582B47ED6 /* Frameworks */ = {
@@ -304,8 +329,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				288D38231E80EE03009406D0 /* LaunchScreen.storyboard in Resources */,
+				28F83A431E94C03300F9E7B0 /* CreateItemViewController.xib in Resources */,
 				288D38201E80EE03009406D0 /* Assets.xcassets in Resources */,
 				288D381E1E80EE03009406D0 /* Main.storyboard in Resources */,
+				28F83A3E1E94BFE700F9E7B0 /* ExplorerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,9 +495,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				288D381B1E80EE03009406D0 /* ViewController.swift in Sources */,
+				28F83A421E94C03300F9E7B0 /* CreateItemViewController.swift in Sources */,
 				288D38191E80EE03009406D0 /* AppDelegate.swift in Sources */,
 				288D38471E80EE4B009406D0 /* BaseTabBarController.swift in Sources */,
+				28F83A3D1E94BFE700F9E7B0 /* ExplorerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -725,6 +753,7 @@
 				288D383F1E80EE03009406D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		288D38401E80EE03009406D0 /* Build configuration list for PBXNativeTarget "ClosetManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -733,6 +762,7 @@
 				288D38421E80EE03009406D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		288D38431E80EE03009406D0 /* Build configuration list for PBXNativeTarget "ClosetManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -741,6 +771,7 @@
 				288D38451E80EE03009406D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
