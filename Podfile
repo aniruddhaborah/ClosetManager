@@ -10,6 +10,7 @@ target 'ClosetManager' do
   pod 'RealmSwift'
   pod 'SCLAlertView'
   pod 'Eureka', '~> 2.0'
+  pod 'SwiftyJSON'
 
 
   # Pods for ClosetManager

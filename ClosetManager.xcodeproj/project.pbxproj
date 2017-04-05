@@ -18,6 +18,8 @@
 		28F83A3E1E94BFE700F9E7B0 /* ExplorerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F83A3C1E94BFE700F9E7B0 /* ExplorerViewController.xib */; };
 		28F83A421E94C03300F9E7B0 /* CreateItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F83A401E94C03300F9E7B0 /* CreateItemViewController.swift */; };
 		28F83A431E94C03300F9E7B0 /* CreateItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F83A411E94C03300F9E7B0 /* CreateItemViewController.xib */; };
+		28F83A461E95A70900F9E7B0 /* RealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F83A451E95A70900F9E7B0 /* RealmExtension.swift */; };
+		28F83A481E95A8B800F9E7B0 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F83A471E95A8B800F9E7B0 /* BaseModel.swift */; };
 		4CA27714F2FCEAC9B2AAB6DF /* Pods_ClosetManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1674DB498435E83569D55CE3 /* Pods_ClosetManager.framework */; };
 		98FEA3CC8A16C4AC28305C64 /* Pods_ClosetManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF778AD9D63A686DF2377F4 /* Pods_ClosetManagerUITests.framework */; };
 		F49FE33B2F6294B8475F7F08 /* Pods_ClosetManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F163929892A70134BA118068 /* Pods_ClosetManagerTests.framework */; };
@@ -59,6 +61,8 @@
 		28F83A3C1E94BFE700F9E7B0 /* ExplorerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExplorerViewController.xib; sourceTree = "<group>"; };
 		28F83A401E94C03300F9E7B0 /* CreateItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateItemViewController.swift; sourceTree = "<group>"; };
 		28F83A411E94C03300F9E7B0 /* CreateItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateItemViewController.xib; sourceTree = "<group>"; };
+		28F83A451E95A70900F9E7B0 /* RealmExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmExtension.swift; sourceTree = "<group>"; };
+		28F83A471E95A8B800F9E7B0 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		4155F10B79E561EF33168ED4 /* Pods-ClosetManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClosetManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClosetManagerUITests/Pods-ClosetManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		70A2E95E71BFDA8537330E42 /* Pods-ClosetManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClosetManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClosetManagerTests/Pods-ClosetManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		908FBE20FCA38B012DE00098 /* Pods-ClosetManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClosetManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClosetManager/Pods-ClosetManager.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +172,7 @@
 		288D38491E80EEB3009406D0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				28F83A471E95A8B800F9E7B0 /* BaseModel.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -182,6 +187,7 @@
 		28F83A441E94C04100F9E7B0 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				28F83A451E95A70900F9E7B0 /* RealmExtension.swift */,
 			);
 			name = Lib;
 			sourceTree = "<group>";
@@ -495,6 +501,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F83A481E95A8B800F9E7B0 /* BaseModel.swift in Sources */,
+				28F83A461E95A70900F9E7B0 /* RealmExtension.swift in Sources */,
 				28F83A421E94C03300F9E7B0 /* CreateItemViewController.swift in Sources */,
 				288D38191E80EE03009406D0 /* AppDelegate.swift in Sources */,
 				288D38471E80EE4B009406D0 /* BaseTabBarController.swift in Sources */,
